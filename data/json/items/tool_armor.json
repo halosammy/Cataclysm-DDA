@@ -1652,6 +1652,20 @@
       "UNBREAKABLE_MELEE"
     ],
     "relic_data": { "passive_effects": [ { "id": "ench_climate_control_all" } ] },
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "ablative": true,
+        "inherits_flags": true,
+        "volume_encumber_modifier": 0,
+        "description": "Attachment points for a dimensional anchor.",
+        "flag_restriction": [ "DIMENSIONAL_ANCHOR" ],
+        "max_contains_volume": "4500 ml",
+        "max_contains_weight": "1250 g",
+        "moves": 1000
+      }
+    ],
     "armor": [
       {
         "material": [ { "type": "lvl4ballisticglass", "covered_by_mat": 100, "thickness": 1.0 } ],
